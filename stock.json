@@ -1,0 +1,191 @@
+[
+    {
+        "id": 1,
+        "producto": "zapatillas",
+        "marca": "Nike",
+        "nombre": "Dunk Low",
+        "precio": 209999,
+        "img": "assets/zapatilla4.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "producto": "zapatillas",
+        "marca": "Puma",
+        "nombre": "Pro Classic",
+        "precio": 159999,
+        "img": "assets/zapatilla5.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "producto": "zapatillas",
+        "marca": "Puma",
+        "nombre": "Suede",
+        "precio": 139999,
+        "img": "assets/zapatilla6.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "producto": "zapatillas",
+        "marca": "Puma",
+        "nombre": "Suede",
+        "precio": 169999,
+        "img": "assets/zapatilla1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "producto": "zapatillas",
+        "marca": "Nike",
+        "nombre": "Air Presto",
+        "precio": 104699,
+        "img": "assets/zapatilla2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "producto": "zapatillas",
+        "marca": "Adidas",
+        "nombre": "Gazelle",
+        "precio": 183999,
+       "img": "assets/zapatilla3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "producto": "remera",
+        "marca": "Adidas",
+        "nombre": "Adicolor",
+        "precio": 79999,
+        "img": "assets/remera4.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "producto": "remera",
+        "marca": "Nike",
+        "nombre": "Lebron",
+        "precio": 74499,
+        "img": "assets/remera5.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "producto": "remera",
+        "marca": "Puma",
+        "nombre": "MX",
+        "precio": 50299,
+        "img": "assets/remera6.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "producto": "remera",
+        "marca": "Adidas",
+        "nombre": "Flames Concert",
+        "precio": 61999,
+        "img": "assets/remera1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "producto": "remera",
+        "marca": "Puma",
+        "nombre": "Jaws Core",
+        "precio": 50299,
+        "img": "assets/remera2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "producto": "remera",
+        "marca": "Nike",
+        "nombre": "Sportswear" ,
+        "precio": 58499,
+        "img":"assets/remera3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 13,
+        "producto": "pantalon",
+        "marca": "Nike",
+        "nombre": "Jordan Essentials",
+        "precio": 129499,
+        "img": "assets/pantalon1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 14,
+        "producto": "pantalon",
+        "marca": "Puma",
+        "nombre": "Downtown 180",
+        "precio": 108999,
+        "img": "assets/pantalon2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 15,
+        "producto": "pantalon",
+        "marca": "Adidas",
+        "nombre": "Argentina",
+        "precio": 129999,
+        "img": "assets/pantalon3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 16,
+        "producto": "short",
+        "marca": "Champion",
+        "nombre": "Deportivo",
+        "precio": 38249,
+        "img": "assets/short1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 17,
+        "producto": "short",
+        "marca": "Kappa",
+        "nombre": "Authentic",
+        "precio": 17999,
+        "img": "assets/short2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 18,
+        "producto": "short",
+        "marca": "Champion",
+        "nombre": "Pink + White",
+        "precio": 33749,
+        "img": "assets/short3.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 19,
+        "producto": "campera",
+        "marca": "Adidas",
+        "nombre": "Firebird",
+        "precio": 114999,
+        "img": "assets/campera1.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 20,
+        "producto": "campera",
+        "marca": "Puma",
+        "nombre": "T7 Track",
+        "precio": 98999,
+        "img": "assets/campera2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 21,
+        "producto": "campera",
+        "marca": "Nike",
+        "nombre": "Tech Windrunner",
+        "precio": 197999,
+        "img": "assets/campera3.jpg",
+        "cantidad": 1
+    }
+]

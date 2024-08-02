@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kumbh+Sans:wght@100..900&family=Lancelot&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="top">
+                <p class="logo">TIENDITA<i class="fas fa-cart-plus"></i></p>
+                <div class="formulario">
+                    <form id="formulario">
+                        <input type="text" id="buscar" class="buscar" autocomplete="on" placeholder="Busca un producto por su marca o prenda ">
+                    </form>
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            <button class="btn2" id="abrir-modal"><i class="fas fa-cart-plus"><span class="cantidad-carrito" id="cantidad-carrito">0</span></i></button>
+            <div id="modal" class="modal">
+                <div class="modal-contenido animate__animated animate__fadeInDown">
+                    <div class="arriba">
+                        <p class="titulo">Carrito de compras</p>
+                        <span class="cerrar"><i class="fas fa-times"></i></span>
+                    </div>
+                    <div id="elementos-en-carrito"></div>
+                    <div class="divisor"></div>
+                    <div class="bottom">
+                        <p><b class="total">Precio total:</b> $<span id="precio-total">0</span></p>
+                        <div>
+                            <button id="vaciar-carrito" class="vaciar-carrito">Vaciar Carrito</button>
+                            <button id="comprar" class="comprar">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="aside" id="seleccionar-orden">
+            <p class="ordenar">ORDENAR:</p>
+            <button class="boton-ordenar">Por defecto</button>
+            <button value="1" class="boton-ordenar">Mayor a menor</button>
+            <button value="2" class="boton-ordenar">Menor a mayor</button>
+            <button value="3" class="boton-ordenar">Alfabeticamente</button>
+        </div>
+        <div id="contenedor-productos" class="contenedor"></div>
+    </main>
+    <script src="/script/carrito.js"></script>
+    <script src="./script/main.js"></script>
+    <script src="/script/modal.js"></script>
+    <script src="/script/ordenar.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://kit.fontawesome.com/ca18de4716.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
